@@ -1,0 +1,16 @@
+[project]
+name = "job-tracker-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.16.5",
+    "fastapi>=0.118.0",
+    "passlib[argon2]>=1.7.4",
+    "psycopg2-binary>=2.9.10",
+    "pydantic[email]>=2.11.9",
+    "python-jose[cryptographhy]>=3.5.0",
+    "sqlalchemy>=2.0.43",
+    "uvicorn>=0.37.0",
+]
