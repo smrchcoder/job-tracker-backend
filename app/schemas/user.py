@@ -17,7 +17,8 @@ class UserCreate(BaseModel):
         if v is not None and (v < 1000000000 or v > 9999999999):
             raise ValueError("Phone number must be a 10-digit integer")
         return v
-    
+
+
 class UserLogin(BaseModel):
     email: EmailStr
     password: str
